@@ -67,6 +67,6 @@ Proje katmanlı bir yapıda düzenlenmiştir. İstek önce logger middleware'ind
 
 # 7. Test
 
-Beş CRUD endpoint'inin tamamı Postman üzerinden test edilmiştir. Test ekran görüntüleri projenin `docs/screenshots/` klasöründe yer almaktadır. Kurulum ve çalıştırma adımları README dosyasında anlatılmıştır.
+Beş CRUD endpoint'inin tamamı çalışan sunucu üzerinde curl ile test edilmiştir; aynı istekler için bir Postman koleksiyonu da projeye eklenmiştir. Test ekran görüntüleri projenin `docs/screenshots/` klasöründe yer almaktadır. Kurulum ve çalıştırma adımları README dosyasında anlatılmıştır.
 
 **GitHub:** https://github.com/ozcpr/taskflow-api

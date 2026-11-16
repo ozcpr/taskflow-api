@@ -1,0 +1,6 @@
+{"info":{"name":"TaskFlow API","schema":"https://schema.getpostman.com/json/collection/v2.1.0/collection.json"},"item":[
+{"name":"Görev Ekle","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"url":"http://localhost:3000/tasks","body":{"mode":"raw","raw":"{\n  \"title\": \"README dosyasını yaz\",\n  \"description\": \"Kurulum adımlarını anlat\",\n  \"assignee\": \"Ozan\",\n  \"priority\": \"low\"\n}"}}},
+{"name":"Görevleri Listele","request":{"method":"GET","url":"http://localhost:3000/tasks"}},
+{"name":"Görev Detayı","request":{"method":"GET","url":"http://localhost:3000/tasks/4"}},
+{"name":"Görev Güncelle","request":{"method":"PUT","header":[{"key":"Content-Type","value":"application/json"}],"url":"http://localhost:3000/tasks/4","body":{"mode":"raw","raw":"{\n  \"status\": \"completed\",\n  \"priority\": \"high\"\n}"}}},
+{"name":"Görev Sil","request":{"method":"DELETE","url":"http://localhost:3000/tasks/4"}}]}

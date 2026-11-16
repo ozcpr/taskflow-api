@@ -40,7 +40,7 @@ taskflow-api/
 │   └── data/
 │       ├── taskStore.js          # JSON dosyasını okuma / yazma
 │       └── tasks.json            # Görev verileri
-├── docs/                         # Proje tanıtım dokümanı ve Postman ekran görüntüleri
+├── docs/                         # Proje tanıtım dokümanı, test ekran görüntüleri, Postman koleksiyonu
 ├── package.json
 └── README.md
 ```
@@ -132,7 +132,7 @@ Her istek için method, endpoint ve zaman damgası hem konsola hem de `logs/requ
 
 ## Test
 
-Tüm endpoint'ler Postman ile test edilmiştir. Ekran görüntüleri `docs/screenshots/` klasöründedir.
+Beş CRUD endpoint'inin tamamı çalışan sunucu üzerinde curl ile test edilmiştir. Test ekran görüntüleri `docs/screenshots/` klasöründedir. Aynı istekleri Postman'de çalıştırmak için `docs/TaskFlow.postman_collection.json` dosyası içe aktarılabilir.
 
 ## Hazırlayan
 
